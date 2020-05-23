@@ -1,0 +1,13 @@
+{
+  "climate":          ["Tropical", "Sub-tropical", "Temperate", "Continental", "Polar"],
+  "terrain":          ["Arctic", "Coastal", "Desert", "Forest", "Grasslands", "Hill", "Marsh", "Mountains", "Swamp", "Underwater", "Urban"],
+  "government":       ["Anarchy", "Autocracy", "Confederation", "Democracy", "Federation", "Magocracy", "Oligarchy", "Overlord", "Republic", "Secret Syndicate", "Theocracy"],
+  "primaryleaders":   ["Royal", "King", "Queen", "Imperial", "Emperor", "Empress"],
+  "secondaryleaders": ["Grand Admiral", "Grand General", "High PriesT", "Spymaster", "Vizier"],
+  "settlement":       ["Thorp", "Hamlet", "Village", "Small Town", "Large Town", "Small City", "Large City", "Metropolis"],
+  "wealth":           ["Wretched", "Squalid", "Poor", "Modest", "Comfortable", "Wealthy", "Aristocratic"],
+  "taxation":         ["None", "Light", "Moderate", "Heavy", "Aggressive"],
+  "magic":            ["None", "Common", "Uncommon", "Rare", "Very Rare", "Legendary", "Artifact", "Mythical"],
+  "hygiene":          ["Unhealthy", "Healthy"],
+  "resources":        ["Mineral", "Timber"]
+}

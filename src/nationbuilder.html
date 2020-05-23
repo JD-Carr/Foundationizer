@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Nation Builder</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Worldbuilding tool for fantasy worlds">
+  <meta name="author" content="JD-Carr">
+
+  <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbarTop">
+      <ul>
+        <a href="calendarbuilder.html">Calendarbuilder</a>
+        <a href="languagebuilder.html">Languagebuilder</a>
+        <a class="active" href="nationbuilder.html">Nationbuilder</a>
+        <a href="organizationbuilder.html">Organizationbuilder</a>
+        <a href="worldbuilder.html">Worldbuilder</a>
+        <a href="optionsbuilder.html">Optionsbuilder</a>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Page Content -->
+  <div class="container" id="main-container">
+
+    <h1>Build your nation</h1>
+    <button onclick="window.location.href='worldbuilder.html'">New Character</button>
+
+    <table>
+      <tr>
+        <td><label for="nationName">Name of Nation:</label></td>
+        <td><input type="text" id="nationName" name="nationName"> </input></td>
+      </tr>
+
+      <tr>
+        <td><label for="selectNationClimate">Climate : </label></td>
+        <td><select id=selectNationClimate>
+          <option selected value>  --select a climate-- </option>
+        </select></td>
+      </tr>
+
+      <tr>
+        <td><label for="selectNationTerrain">Terrain : </label></td>
+        <td><select id=selectNationTerrain>
+          <option selected value>  --select a terrain-- </option>
+        </select></td>
+      </tr>
+
+      <tr>
+        <td><label for="selectNationGovernment">Government : </label></td>
+        <td><select id=selectNationGovernment>
+          <option selected value>  --select a government-- </option>
+        </select></td>
+      </tr>
+
+      <tr>
+        <td><label for="selectNationPrimaryleaders">Rulers : </label></td>
+        <td><select id=selectNationPrimaryleaders>
+          <option selected value>  --select a Ruler-- </option>
+        </select></td>
+      </tr>
+
+      <tr>
+        <td><label for="selectNationSecondaryleaders">Officials  : </label></td>
+        <td><select id=selectNationSecondaryleaders>
+          <option selected value>  --select an offical-- </option>
+        </select></td>
+      </tr>
+
+      <tr>
+        <td><label for="selectNationSettlement">Settlements : </label></td>
+        <td><select id=selectNationSettlement>
+          <option selected value>  --select a settlement-- </option>
+        </select></td>
+      </tr>
+
+      <tr>
+        <td><label for="selectNationWealth">Wealth : </label></td>
+        <td><select id=selectNationWealth>
+          <option selected value>  --select wealth-- </option>
+        </select></td>
+      </tr>
+
+      <tr>
+        <td><label for="selectNationTaxation">Taxation level : </label></td>
+        <td><select id=selectNationTaxation>
+          <option selected value>  --select a taxation level-- </option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><label for="selectNationMagic">Magic : </label></td>
+        <td><select id=selectNationMagic>
+          <option selected value>  --select magic level-- </option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><label for="selectNationHygiene">Hygiene : </label></td>
+        <td><select id=selectNationHygiene>
+          <option selected value>  --select hygiene-- </option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><label for="selectNationResources">Resources : </label></td>
+        <td><select id=selectNationResources>
+          <option selected value>  --select a resource-- </option>
+        </select></td>
+      </tr>
+    </table>
+
+  </div>
+
+  <script type='text/javascript' src='select_nation_options.js'></script>
+</body>
+
+</html>

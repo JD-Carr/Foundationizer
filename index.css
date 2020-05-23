@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+input[type=text] {
+  padding: 2px 2px;
+  margin: 8px 0;
+  background-color : #A3ADB8;
+  border: 1px solid black;
+}
+
+select {
+  background-color: #A3ADB8;
+  border: 1px solid black;
+  width: 100%;
+}
+
+select select {
+  background-color: #A3ADB8;
+}
+
+select option {
+  background-color: #A3ADB8;
+}
+
+body {
+  background-color: #A9A18C;
+  padding: 0;
+  margin: 0;
+  font-family: Georgia;
+  font-size: 16px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+
+.container {
+}
+
+.navbarTop {
+  /*background-color: #2C3552;*/
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  top: 0;
+  width: 100vw;
+  margin: 2px;
+  padding: 2px;
+}
+
+.navbarTop ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbarTop a {
+  float: left;
+  color: #493829;
+  text-align: left;
+  padding: 2px 2px 2px 2px;
+  margin: 1px;
+  text-decoration: none;
+  font-size: 16px;
+}
+/* Change the color of links on hover */
+.navbarTop a:hover {
+  background-color: #668D3C;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.navbarTop a.active {
+  background-color: #404F24;
+  color: white;
+}
+
+.main {
+  margin-top: 30px;
+  padding: 2px;
+  margin: 2px;
+
+}
