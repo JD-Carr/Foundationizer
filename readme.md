@@ -7,7 +7,8 @@ The app pulls data options from JSON files which you can edit outside of the pro
 
 Eventually I want to support editing the data options in the app itself. Much later down the road I may try to implement a more proper database system.
 
-You'll be able to remove options you don't want so they won't display, and eventually later add new options. Some options will be available for multiple types of systems, so it may take me a bit to fine tune that system.  
+You'll be able to remove options you don't want so they won't display, and eventually later add new options. Some options will be available for multiple types of systems, so it may take me a bit to fine tune that system.
+
 ## Feature list and completion  
 **Feature List**
 - [X] File- New World - Populates data fields from JSON files.
@@ -18,10 +19,12 @@ You'll be able to remove options you don't want so they won't display, and event
 - [ ] Nation building - Create nations and fill in their information.
 - [ ] Language building - Create languages for the world.
 - [ ] Organization building - Create organizations for the world.
+
 ## Calendar
 Choose the number of days in year. Then create your days in a week, weeks in a month, months in a year. This will have functionality to automatically assign your calendar around specific desired numbers.
 
 Eventually support for assigning holidays, leap year days, or non-standard calendar types (like every month having different weeks or days) will come. Also the option to have multiple calendars for the same world.
+
 ## Pantheons
 Create gods, assign them domains, a rough # of adherents, names of their places of worship.
 
