@@ -37,7 +37,7 @@ Eventually possibly try to do more to support conlang stuff, I will need to inve
 ## Organizations
 Create organizations. This is meant to be a way to create anything non-state like cults, religions, guilds, mercenary companies, mercantile companies, etc. This I believe will require time to flesh out properly.
 
-##Far off spitball ideas  
+## Far off spitball ideas  
 The ability to create timelines of important events for most categories like nations or organizations, so you can track important events.  
 
 A wiki-like functionality to make it easier to navigate and add information to the different parts.
