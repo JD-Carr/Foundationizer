@@ -9,7 +9,7 @@ Eventually I want to support editing the data options in the app itself. Much la
 
 You'll be able to remove options you don't want so they won't display, and eventually later add new options. Some options will be available for multiple types of systems, so it may take me a bit to fine tune that system.
 
-## Feature list and completion  
+## Feature list and completion
 **Feature List**
 - [X] File- New World - Populates data fields from JSON files.
 - [ ] File - Save World - Saves your current World data.

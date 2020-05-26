@@ -6,6 +6,7 @@ const fs = require("fs");
 let menu;
 let appWindow;
 
+
 const menubarTop = [
   {
     label: 'File',
@@ -69,6 +70,8 @@ function createWindow() {
   Menu.setApplicationMenu(menu);
 
   appWindow.webContents.openDevTools();
+
+  console.log('my path:',app.getAppPath());
 
   appWindow.on('closed', function () {
     appWindow = null;
