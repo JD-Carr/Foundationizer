@@ -7,7 +7,7 @@ const fs = require("fs");
 var nationOptionsObject = {};
 var nationOptionsKeyArray = [];
 
-var nationOptionsObject = JSON.parse(fs.readFileSync('lib/nation_options.json', "utf-8"));
+var nationOptionsObject = JSON.parse(fs.readFileSync('src/JSONOptions/nation_options.json', "utf-8"));
 console.log(nationOptionsObject);
 
 var nationOptionsKeyArray = Object.keys(nationOptionsObject);

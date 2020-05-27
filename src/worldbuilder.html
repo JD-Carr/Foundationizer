@@ -26,43 +26,56 @@
         <a href="optionsbuilder.html">Optionsbuilder</a>
       </ul>
     </nav>
-    <h1> This is worldbuilder.html </h>
-    </header>
+  </header>
 
-    <div id="main">
-      <section id="createCalendar">
-        <h2>Create a calendar system for your world</h2>
-        <label for"btnBuildCalendar">Build calendar</label>
-        <button name="btnBuildCalendar" onclick="window.location.href='nationbuilder.html'"> Build Calendar</button>
+  <!-- Page Content -->
 
-        <section id="createGods">
-          <h2>Build the gods and pantheon(s) of your world</h2>
-          <label for"btnBuildGods">Build calendar</label>
-          <button name="btnBuildGods" onclick="window.location.href='nationbuilder.html'"> Build Gods</button>
+  <!-- Node.js and Electron don't support Prompt. This for the time being. -->
+  <div id="main">
+    <h2 id="worldName">Give a name to your world</h2>
+    <section id="promptName">
+      <input type="text"
+      id="inputWorldnameText"
+      value="">
+      <label for"btnWorldName">Input World name</label>
+      <button name="btnWorldName" onclick=setWorldationName()>Name World</button>
+    </section>
 
-        </section>
-        <section id="createLanguages">
-          <h2>Create langauges spoken in your world, scripts they use, and who uses them</h2>
-          <label for"btnBuildLanguages">Build languages</label>
-          <button name="btnBuildLanguages" onclick="window.location.href='nationbuilder.html'"> Build Languages</button>
+    <section id="createCalendar">
+      <h2>Create a calendar system for your world</h2>
+      <label for"btnBuildCalendar">Build calendar</label>
+      <button name="btnBuildCalendar" onclick="window.location.href='nationbuilder.html'"> Build Calendar</button>
+    </section>
 
-        </section>
-        <section id="createNations">
-          <h2>Create a nation</h2>
-          <label for"btnBuildNations">Build nations</label>
-          <button name="btnBuildNations" onclick="window.location.href='nationbuilder.html'"> Build Nation</button>
+    <section id="createGods">
+      <h2>Build the gods and pantheon(s) of your world</h2>
+      <label for"btnBuildGods">Build calendar</label>
+      <button name="btnBuildGods" onclick="window.location.href='nationbuilder.html'"> Build Gods</button>
+    </section>
 
-        </section>
-        <section id="createOrganizations">
-          <h2>Create organizations for your world.</h2>
-          <p>Organizations can be cults, religions, noble houses, guilds, mercenary companies, etc</p>
-          <label for"btnBuildOrganizations">Build organizations</label>
-          <button name="btnBuildOrganizations" onclick="window.location.href='nationbuilder.html'"> Build Organizations</button>
+    <section id="createLanguages">
+      <h2>Create langauges spoken in your world, scripts they use, and who uses them</h2>
+      <label for"btnBuildLanguages">Build languages</label>
+      <button name="btnBuildLanguages" onclick="window.location.href='nationbuilder.html'"> Build Languages</button>
+    </section>
 
-        </section>
+    <section id="createNations">
+      <h2>Create a nation</h2>
+      <label for"btnBuildNations">Build nations</label>
+      <button name="btnBuildNations" onclick="window.location.href='nationbuilder.html'"> Build Nation</button>
+    </section>
 
+    <section id="createOrganizations">
+      <h2>Create organizations for your world.</h2>
+      <p>Organizations can be cults, religions, noble houses, guilds, mercenary companies, etc</p>
+      <label for"btnBuildOrganizations">Build organizations</label>
+      <button name="btnBuildOrganizations" onclick="window.location.href='nationbuilder.html'"> Build Organizations</button>
+    </section>
 
+  </div>
 
-      </body>
+  <script type='text/javascript' src='worldbuilder.js'></script>
 
-      </html>
+</body>
+
+</html>
