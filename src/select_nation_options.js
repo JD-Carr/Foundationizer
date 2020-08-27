@@ -15,7 +15,7 @@ console.log(nationOptionsKeyArray);
 
 loadSelectionNationOptions(nationOptionsObject, nationOptionsKeyArray);
 
-//This pulls the data from the JSON files so they can be added to selec option boxes.
+//This pulls the data from the JSON files so they can be added to select option boxes.
 function loadSelectionNationOptions (optionsObject, optionsKeyArray) {
   let key;
   for (key in nationOptionsObject) {
